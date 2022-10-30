@@ -1,148 +1,115 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
-body {
-  font-family: sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.app {
-  padding: 4% 8%;
-}
-
-#profile__img {
-  width: 9%;
-  border-radius: 50%;
-}
-
-.profile h2 {
-  padding: 1rem 0;
-  font-family: fantasy;
-  letter-spacing: 2px;
-}
-
-.profile {
+.profile{
   position: relative;
+  width: 1440px;
+  height: 1158px;
+
+  background: #ffffff;
 }
 
-.arrow,
-.triple-dot {
-  width: 4%;
-  position: absolute;
-  right: 13%;
-  cursor: pointer;
-}
 
-.triple-dot {
-  display: none;
-}
 
-#slack {
-  display: none;
-}
-
-.profile,
-.links {
-  text-align: center;
-  padding: 0 3rem;
-}
-
-.links {
-  margin: 0 0 1.5rem 0;
-}
-
-.links a {
-  text-decoration: none;
-  color: black;
+.profile__img{
   display: flex;
   flex-direction: column;
-  background-color: lightgray;
-  border-radius: 10px;
-  padding: 1rem 0;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 1.2rem;
-}
-
-.social-icon a {
-  display: inline;
-  background-color: inherit;
-  border-radius: 0;
-  padding: 0;
-}
-
-.social-icon img {
-  width: 5%;
-  margin: 0 0.5rem;
-}
-
-#profile__img:hover,
-.social-icon img:hover,
-.links a:hover {
-  transition: 0.5s ease-in-out;
-  transform: scale(1.1);
-}
-
-.foot-body {
-  display: flex;
-  justify-content: space-between;
-  margin: 1rem 0;
-}
-
-.foot #zuri__img {
-  width: 15%;
-}
-
-.foot #zuri__ingressive {
-  width: 12%;
-}
-
-#hng__text {
-  color: rgb(182, 182, 182);
-  font-size: 15px;
+  justify-content: center;
   align-items: center;
+  padding: 0px;
+  width: 88px;
+  height: 88px;
+  border-radius: 275px;
+  flex: none;
+  border: 0;
+  flex-grow: 0;
+  z-index: 0;
+
 }
 
-@media screen and (max-width: 500px) {
-  #profile__img {
-    width: 30%;
-  }
 
-  .triple-dot {
-    display: block;
-    width: 9%;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  .arrow {
-    display: none;
-  }
-
-  .links {
-    padding: 0;
-  }
-
-  .social-icon img {
-    width: 12%;
-  }
-
-  .foot #zuri__img {
-    width: 35%;
-  }
-
-  #hng__text {
-    font-size: 0.8rem;
-    margin: 0.6rem 0;
-  }
-
-  .foot #zuri__ingressive {
-    width: 30%;
-  }
-
-  .foot-body {
-    display: block;
-  }
+.profile__Arrow{
+  position: absolute;
+  left: 12.5%;
+  right: 11.53%;
+  top: 14.95%;
+  bottom: 14.95%;
 }
+
+
+
+.footer{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 48px 0px;
+gap: 64px;
+
+position: absolute;
+width: 1440px;
+height: 160px;
+left: 0px;
+top: 998px;
+background-color: #ffffff;
+}
+
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 32px;
+  gap: 32px;
+
+  width: 1280px;
+  height: 64px;
+}
+
+.footer-container h1{
+  font-family: inter;
+}
+
+
+.footer__logo{
+  position: absolute;
+  left: 0.72%;
+  right: 0.64%;
+  top: 21.82%;
+  bottom: 0.88%;
+  height: 24.73708152770996px;
+  width: 185.0301055908203px;
+  border-radius: 0px;
+
+}
+
+
+
+.footer-text{
+  width: 832.28px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+
+.font-content{
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0px 0px;
+  gap: 32px;
+
+  width: 1216px;
+  height: 64px;
+}
+
+
+

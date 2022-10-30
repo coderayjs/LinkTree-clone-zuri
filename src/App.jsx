@@ -1,6 +1,7 @@
 import Footer from './components/Footer';
 import SocialLinks from './components/SocialLinks';
 import Profile from './components/Profile';
+import './App.css';
 
 function App() {
   return (

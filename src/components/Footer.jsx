@@ -1,3 +1,4 @@
+import React from "react";
 import zuri from "../img/zuri.png";
 import zuriimpress from "../img/zuri-ingressive-img.png";
 
@@ -5,19 +6,20 @@ import zuriimpress from "../img/zuri-ingressive-img.png";
 
 const Footer = () => {
 return(
-  <div className="foot">
-    <div className="foot-body">
-    <img src={zuri} alt="zuri" className="zuri__img" />
-       <p id="hng-text"> HNG Internship 9 FrontEnd Task</p>
-        <img src={zuriimpress} alt="zuriimpress" className="zuri__impress" />
+  <div className="footer">
+    <div className="footer-container">
     </div>
+      <div className="footer-content">
+      </div>
+      <div className="footer__logo">
+          <img src={zuri} alt="zuri" className="footer__logo" />
+        </div>
+        
+
   </div>
 
-)
 
-
-
+);
 }
-
 
 export default Footer;
