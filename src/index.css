@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +100,11 @@ background-color: #ffffff;
   font-size: 16px;
   line-height: 24px;
   color: #667085;
+  line-height: 24px;
+  text-align: center;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
 }
 
 
@@ -111,5 +120,20 @@ background-color: #ffffff;
   height: 64px;
 }
 
+
+.zuriimpress{
+  height: 32px;
+  width: 132.1290283203125px;
+  left: 1083.8709716796875px;
+  top: 32px;
+  border-radius: 0px;
+  background: url(zuriimpress.png);
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+
+
+
+}
 
 
