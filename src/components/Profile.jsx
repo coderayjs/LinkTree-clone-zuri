@@ -3,7 +3,7 @@ import profileImg from "../img/profile-img.png";
 import arrow from "../img/arrow.png";
 import slack from "../img/slack-icon.jpeg";
 import profileimage from "../img/profile-image.png";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {Link} from "react-router-dom"
 
 const Profile = () => {
   return (
@@ -89,13 +89,7 @@ const Profile = () => {
                   </div>
                   <div>
                     <button id="contact" className="contact">
-                    <a
-                      href="/contact"
-                      target="_blank"
-                      rel="noreferrer"
-                      >
-                      Contact Me
-                    </a>
+                      <Link to="/contact">Contact Me</Link>
 
                     </button>
                   </div>
