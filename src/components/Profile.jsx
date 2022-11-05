@@ -3,6 +3,7 @@ import profileImg from "../img/profile-img.png";
 import arrow from "../img/arrow.png";
 import slack from "../img/slack-icon.jpeg";
 import profileimage from "../img/profile-image.png";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const Profile = () => {
   return (
@@ -84,6 +85,18 @@ const Profile = () => {
                       >
                         Design Books
                       </a>
+                    </button>
+                  </div>
+                  <div>
+                    <button id="contact" className="contact">
+                    <a
+                      href="https://contact.zuri.team/"
+                      target="_blank"
+                      rel="noreferrer"
+                      >
+                      Contact Me
+                    </a>
+
                     </button>
                   </div>
                 </div>

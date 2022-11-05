@@ -133,6 +133,7 @@ flex-grow: 0;
 }
 
 .btn__zuri,
+.contact,
 .books,
 .book__python,
 .twitter,
@@ -183,6 +184,7 @@ border-radius: 8px;
     align-items: center;
   }
   .btn__zuri,
+  .contact,
   .books,
   .book__python,
   .twitter,
