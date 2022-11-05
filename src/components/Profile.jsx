@@ -90,7 +90,7 @@ const Profile = () => {
                   <div>
                     <button id="contact" className="contact">
                     <a
-                      href="https://contact.zuri.team/"
+                      href="/contact"
                       target="_blank"
                       rel="noreferrer"
                       >
