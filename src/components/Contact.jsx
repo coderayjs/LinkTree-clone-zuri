@@ -2,6 +2,8 @@ import { CheckBox } from "@mui/icons-material";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
+import "../Contact.css";
 
 const Contact = () => {
     return (
@@ -33,6 +35,10 @@ const Contact = () => {
                             <input type="submit" value="Send Message" />
                         </div>
                 </form>
+
+                <div>
+                    <Footer/>
+                </div>
 
             </div>
         </div>

@@ -5,6 +5,7 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Contact from "./components/Contact";
+import "./Contact.css";
 
 const router = createBrowserRouter([
   {
